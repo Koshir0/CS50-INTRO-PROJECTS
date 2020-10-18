@@ -1,0 +1,16 @@
+finance project instraction:
+
+in cmd :
+mkdir dev
+cd dev
+virtualenv -p python .
+.\Scripts\activate
+cd ..
+pip install cs50
+pip install Flask -Session
+pip install Flask-Session
+pip install requests
+export API_KEY=pk_f130596a458b46a6990a3cdc032750ea
+export FLASK_APP=application.py
+export FLASK_DEBUG=1
+flask run
